@@ -1,11 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>개발자 박정빈의 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>hihi</h1>
+    <main>
+        <!-- 자기소개 -->
+        <section id="introduction" style="display: flex; gap:40px; padding: 20px;">
+            <!-- 프로필 이미지 -->
+            <div style="width: 100px; height: auto; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);">
+                <img src="my.jpg" alt="프로필 이미지">
+            </div>
+            <!-- 자기소개 정보 -->
+            <div class="colBox">
+                <h1 style="font-size: 24px; font-weight: bold;">개발자 박정빈</h1>
+                <div id="contact" class="colBox">
+                    <p style="font-size: 16px; font-weight: bold;">연결 링크</p>
+                    <a href="https://github.com/obb8923">Github</a>
+                    <a href="https://velog.io/@obb8923/series">Velog</a>
+                </div>
+            </div>
+        </section>
+        <!-- 자기소개 내용 - 줄 글 -->
+        <section id="introduction">
+            <p>책임감 있는 프론트엔드 개발자, 박정빈입니다.</p>
+            <p>사용자 경험을 최우선으로 고려하여, 서비스 이용을 지속적으로 유도하는 것을 목표로 합니다. 이를 바탕으로 요구사항을 충족하면서도 가독성이 높고 유연한 코드를 작성하는 데 주력합니다.</p>
+            <p>다양한 프로젝트와 대외활동을 통해 효과적인 협업 능력을 갖추려 했습니다. 서로 도움을 주고받는 것을 기쁨으로 여기며, 열린 소통을 통해 팀원들과의 신뢰를 쌓아가며 팀의 시너지를 극대화하기 위해 노력합니다. </p>
+            <p>단순한 기능 구현을 넘어 실질적인 문제 해결에 집중합니다. 문제 해결을 위한 기술과 도구를 습득하기 위해 지속적으로 학습하고 있습니다.</p>
+        </section>
+        <!-- 프로젝트 -->
+        <section id="projects">
+            <h2>프로젝트</h2>
+            <div>
+                <section style="display: flex; flex-direction: column; gap: 10px;">
+                    <h2>~~~하는 앱/웹 서비스 - 서비스 이름</h2>
+                    <h3>기간</h3> <span>00.00.00~00.00.00</span>
+                    <h3>프로젝트 내용</h3>
+                    <p>프로젝트에 대한 설명을 여기에 작성합니다.</p>
+                    <h3>주요 역할</h3>
+                    <p>프로젝트에서 맡은 역할을 여기에 작성합니다.</p>
+                    <h3>사용한 기술</h3>
+                    <p>프로젝트에서 사용한 기술들을 여기에 작성합니다.</p>
+                </section>
+            </div>
+        </section>
+        <!-- 기술 -->
+        <section id="skills">
+            <h2>기술</h2>
+            <h3>집중하는 것들</h3>
+            <div style="display: flex; flex-direction: row; gap: 10px;">
+                <span class='badge'>React</span>
+                <span class='badge'>JavaScript</span>
+            </div>
+            <h3>해 본 것들 (웹 관련)</h3>
+            <div style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap;">
+                <span class='badge'>CSS</span>
+                <span class='badge'>JavaScript</span>
+                <span class='badge'>Node.js</span>
+                <span class='badge'>TypeScript</span>
+                <span class='badge'>Express.js</span>
+                <span class='badge'>React</span>
+                <span class='badge'>Tailwind CSS</span>
+                <span class='badge'>React Router</span>
+                <span class='badge'>Next.js</span>
+                <span class='badge'>Vanilla Extract</span>
+                <span class='badge'>Zustand</span>
+                <span class='badge'>StoryBook</span>
+            </div>
+            <h3>해 본 것들 (전체)</h3>
+            <div style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap;">
+                <span class='badge'>Python</span>
+                <span class='badge'>C++</span>
+                <span class='badge'>Java</span>
+                <span class='badge'>Kotlin</span>
+                <span class='badge'>MySQL</span>
+                <span class='badge'>Amazon AWS</span>
+                <span class='badge'>Vercel</span>
+                <span class='badge'>Firebase</span>
+                <span class='badge'>ESLint</span>
+                <span class='badge'>Prettier</span>
+                <span class='badge'>Qiskit</span>
+                <span class='badge'>React Native</span>
+                <span class='badge'>Expo</span>
+            </div>
+        </section>
+        <!-- 학력 -->
+        <section id="education">
+            <h2>학력</h2>
+            <ul class="colBox" style="gap: 15px;">
+                <li class="colBox">
+                    <p style="font-weight: bold;">국민대학교</p>
+                    <p>나노전자물리학과 학사과정</p>
+                    <p>2019.03 ~ 재학중</p>
+                </li>
+                <li class="colBox">
+                    <p style="font-weight: bold;">국민대학교</p>
+                    <p>소프트웨어 융합학과 학사과정</p>
+                    <p>2022.03 ~ 재학중</p>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
+
 </html>
